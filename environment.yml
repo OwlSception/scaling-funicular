@@ -1,0 +1,13 @@
+name: Project_Name
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - numpy=2.1.0
+  - pandas=2.2.2
+  - matplotlib=3.9.2
+  - biopython
+  - pip
+  - pip:
+      - jupyterlab
