@@ -1,0 +1,36 @@
+
+
+{
+  "reference_genomes": {
+    "human": {
+      "fasta": {
+        "url": "https://ftp.ensembl.org/pub/release-111/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz",
+        "checksum": "abc123sha256..."
+      },
+      "gff3": {
+        "url": "https://ftp.ensembl.org/pub/release-111/gff3/homo_sapiens/Homo_sapiens.GRCh38.111.gff3.gz",
+        "checksum": "def456sha256..."
+      }
+    },
+    "dog": {
+      "fasta": {
+        "url": "https://ftp.ensembl.org/pub/release-111/fasta/canis_lupus_familiaris/dna/Canis_lupus_familiaris.ROS_Cfam_1.0.dna.toplevel.fa.gz",
+        "checksum": "ghi789sha256..."
+      },
+      "gff3": {
+        "url": "https://ftp.ensembl.org/pub/release-111/gff3/canis_lupus_familiaris/Canis_lupus_familiaris.ROS_Cfam_1.0.111.gff3.gz",
+        "checksum": "jkl012sha256..."
+      }
+    },
+    "cat": {
+      "fasta": {
+        "url": "https://ftp.ensembl.org/pub/release-111/fasta/felis_catus/dna/Felis_catus.Felis_catus_9.0.dna.toplevel.fa.gz",
+        "checksum": "mno345sha256..."
+      },
+      "gff3": {
+        "url": "https://ftp.ensembl.org/pub/release-111/gff3/felis_catus/Felis_catus.Felis_catus_9.0.111.gff3.gz",
+        "checksum": "pqr678sha256..."
+      }
+    }
+  }
+}

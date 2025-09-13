@@ -1,0 +1,9 @@
+# CRAN packages
+CRAN:tidyverse
+CRAN:curl
+CRAN:jsonlite
+
+# Bioconductor packages
+BIOC:DiffBind
+BIOC:edgeR
+BIOC:Biostrings
