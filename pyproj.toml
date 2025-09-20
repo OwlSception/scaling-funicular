@@ -1,0 +1,14 @@
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "N"]  # E/F = pycodestyle/pyflakes, N = naming conventions
+ignore = []
+fixable = ["ALL"]
+
+[tool.ruff.lint]
+# Naming convention rules (from pep8-naming)
+select = ["N"]
+
+[tool.ruff.lint.pep8-naming]
+# Functions & methods in snake_case
+# Classes in PascalCase
+# Constants in UPPER_CASE
